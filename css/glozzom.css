@@ -1,0 +1,45 @@
+.nav-item{
+	padding-left:1rem ! important;
+}
+.nav-link{
+	text-transform:uppercase;
+}
+.navbar{
+	background:#000;
+}
+.carousel-item{
+	height:550px;
+}
+.getstarted{
+	position:relative;
+	min-height:250px;
+
+}
+.bg-overlay{
+
+}
+
+
+
+
+@media(max-width: 767px){
+	.nav-item{
+		padding-left:0 ! important;
+	}
+	.getstarted{
+		min-height:350px;
+	}
+	
+}
+.fa{
+	font-size:1.0rem;
+}
+
+@media(max-width: 480px){
+	.carousel h2{
+		font-size:2.5rem;
+	}
+	.getstarted{
+		min-height:400px;
+	}
+}

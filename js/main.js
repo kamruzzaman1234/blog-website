@@ -1,0 +1,9 @@
+$(document).ready(function(){
+   $('.column1').hide();
+   $('button').click(function(){
+      $('.column1').fadeIn('slow');
+      $('.column2').fadeIn('slow');
+      $('.column3').fadeIn('slow');
+      $('.column4').fadeIn('slow');
+   });
+});

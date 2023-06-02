@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style:none;
+}
+/*===============FIRST HEADER AREA START================*/
+#first-header{
+    padding-top:20px;
+    padding-bottom:20px;
+    background:#ba2e1f;
+    width:100%;
+    height:80px;
+    padding-left:25px;
+    padding-right:25px;
+    
+}
+#first-header .menuber ul li a{
+    display:inline-block;
+    font-size:12px;
+    font-family:'Georgia', sans-serif;
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+#first-header .menuber{
+    float:left;
+
+}
+#first-header .menuber ul li{
+    display:inline-block;
+    margin-left:20px;
+    position:relative;
+}
+#first-header .menuber ul li:before{
+    content:'';
+    position:absolute;
+    top:5px;
+    right:-10px;
+    background:#ffffff;
+    width:2px;
+    height:20px;
+
+}
+#first-header .menuber ul li:before:last-child{
+    content:'';
+    position:absolute;
+    top:5px;
+    right:-10px;
+  
+
+}
+#first-header .search{
+    float:right;
+}
+.search form input{
+  width:100%;
+  padding:5px 5px;
+  border:0;
+  display:inline-block;
+  border-radius:20px;
+  position:relative;
+}
+.search form a{
+    position:absolute;
+    right:40px;
+    top:23px;
+}
+/*===============FIRST HEADER AREA END=====================*/
+/*==============SOCIAL MEDIA AREA START================*/
+#social-media{
+    padding-top:20px;
+    padding-bottom:20px;
+    margin:15px;
+    width:100%;
+    height:80px;
+    padding-left:30px;
+    padding-right:30px;
+    
+}
+#social-media .logo{
+    float:left;
+}
+#social-media .social-icon{
+    float:right;
+}
+#social-media .social-icon ul{
+    margin-right:40px;
+
+}
+#social-media .social-icon ul li{
+    display:inline-block;
+    margin-left:15px;
+}
+#social-media .social-icon ul li a{
+    display:inline-block;
+    padding:10px 10px;
+    background:#000;
+    border-radius:30px;
+    transition:.4s;
+}
+#social-media .social-icon ul li a:hover{
+    padding:10px;
+    background:orange;
+}
+
+
+
+
+
+/*==============SOCIAL MEDIA AREA END================*/
+/*================MENUBER AREA START===================*/
+.menuber-area{
+    padding-top:15px;
+    padding-bottom:15px;
+    background:#333333;
+    padding-left:10px;
+    padding-right:10px;
+    height:50px;
+    text-align:center;
+    margin:15px;
+    border-radius:10px;
+}
+.menuber-area ul{
+
+}
+.menuber-area ul li{
+    display:inline-block;
+    margin-right:15px;
+}
+.menuber-area ul li:last-child{
+    margin:0;
+}
+.menuber-area ul li a{
+    font-size:16px;
+    color:#e9e8e3;
+    font-style:italic;
+    font-weight:bold;
+    padding:0px 10px;
+    text-decoration:none;
+    transition:.5s;
+}
+.menuber-area ul li a:hover{
+    color:#ba2e1f;
+    font-size:17px;
+}
+
+/*================MENUBER AREA END======================*/
+/*=================HUGE AREA START===================*/
+.huge-area{
+    margin-top:40px;
+    padding-left:40px;
+}
+.area{
+    height:500px;
+    width:500px;
+    background:#333;
+    text-align:center;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+.area h2{
+    font-size:22px;
+    color:#fff;
+    font-weight:bold;
+}
+.huge-title h1{
+    font-size:86px;
+    color:#000;
+    font-weight:bold;
+   
+    padding-top:60px;
+}
+/*=================HUGE AREA END===================*/
+
+
